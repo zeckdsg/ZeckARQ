@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Home, Building2, Armchair } from 'lucide-react';
 import { Reveal } from './ui/Reveal';

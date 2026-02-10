@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Mail, MapPin } from 'lucide-react';
 import { Reveal } from './ui/Reveal';

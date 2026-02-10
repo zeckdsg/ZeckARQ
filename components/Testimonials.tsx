@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Quote, Star } from 'lucide-react';
 import { Reveal } from './ui/Reveal';
