@@ -9,7 +9,8 @@ const publicSans = Public_Sans({
 
 export const metadata: Metadata = {
   title: "Arquiteto Moderno | Transformando Espacos em Arte",
-  description: "Portfolio de arquitetura de luxo com design minimalista e sofisticado.",
+  description:
+    "Portfolio de arquitetura de luxo com design minimalista e sofisticado.",
 };
 
 export const viewport: Viewport = {
@@ -23,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="scroll-smooth">
-      <body className={`${publicSans.className} antialiased bg-background-light text-slate-800 selection:bg-primary selection:text-white`}>
+      <body
+        className={`${publicSans.className} antialiased`}
+      >
         {children}
       </body>
     </html>

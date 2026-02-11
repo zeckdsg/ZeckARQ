@@ -11,7 +11,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-background-light text-slate-800 antialiased selection:bg-primary selection:text-white">
+    <main className="min-h-screen overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />
