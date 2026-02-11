@@ -1,7 +1,5 @@
 @import 'tailwindcss';
 
-@config '../tailwind.config.ts';
-
 @theme inline {
   --font-sans: 'Public Sans', sans-serif;
   --font-display: 'Public Sans', sans-serif;
