@@ -38,7 +38,7 @@ export const Reveal: React.FC<RevealProps> = ({
       opacity: 1, 
       y: 0, 
       filter: "blur(0px)",
-      transition: { duration: 0.8, delay: delay, ease: [0.25, 0.25, 0.25, 0.75] } 
+      transition: { duration: 0.8, delay: delay, ease: [0.25, 0.25, 0.25, 0.75] as const } 
     },
   };
 
