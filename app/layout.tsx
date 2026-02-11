@@ -1,17 +1,19 @@
-import React from 'react';
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Public_Sans } from "next/font/google";
 import "./globals.css";
 
 const publicSans = Public_Sans({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
-  variable: "--font-public-sans",
 });
 
 export const metadata: Metadata = {
-  title: "Arquiteto Moderno | Transformando Espaços em Arte",
-  description: "A luxury architecture portfolio featuring parallax scrolling, motion blur animations, and a sophisticated minimalist design.",
+  title: "Arquiteto Moderno | Transformando Espacos em Arte",
+  description: "Portfolio de arquitetura de luxo com design minimalista e sofisticado.",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#f8f7f6",
 };
 
 export default function RootLayout({

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Home, Building2, Armchair } from 'lucide-react';
-import { Reveal } from './ui/Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 
 export const Services: React.FC = () => {
   const services = [
