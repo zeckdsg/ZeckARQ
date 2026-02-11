@@ -1,11 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@theme inline {
+  --font-sans: 'Public Sans', sans-serif;
+  --font-display: 'Public Sans', sans-serif;
+  --color-primary: #eebd2b;
+  --color-background-light: #f8f7f6;
+  --color-background-dark: #221d10;
 }
 
 body {
@@ -33,13 +33,17 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #eebd2b 0%, #c4961a 100%);
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .scrollbar-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

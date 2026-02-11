@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Reveal } from './ui/Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 import { ArrowUpRight, X, MapPin, Calendar, Ruler, Layers } from 'lucide-react';
 
 interface Project {

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Reveal } from './ui/Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 
 export const About: React.FC = () => {
   return (

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Quote, Star } from 'lucide-react';
-import { Reveal } from './ui/Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 
 export const Testimonials: React.FC = () => {
   const testimonials = [

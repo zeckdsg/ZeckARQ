@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Mail, MapPin } from 'lucide-react';
-import { Reveal } from './ui/Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 
 export const Contact: React.FC = () => {
   return (
